@@ -1,4 +1,4 @@
-# Project Name
+# xData ASR Technical Assessment
 
 This project consists of an ASR (Automatic Speech Recognition) API implemented with Flask, utilizing an Elasticsearch backend and a React-based search UI.
 
