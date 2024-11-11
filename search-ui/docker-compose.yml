@@ -1,0 +1,11 @@
+services:
+  search-ui:
+    build: .
+    ports:
+      - "3000:80"
+    networks:
+      - es-net  # Connect to Elasticsearch network
+networks:
+  es-net:
+    external: true
+    name: es-net
